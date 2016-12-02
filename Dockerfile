@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Tomohisa Kusano <siomiz@gmail.com>
+MAINTAINER Tomohisa Kusano <siomiz@gmail.com>/Demoshow <ADD CN_FONT>
 
 ENV CHROME_REMOTE_DESKTOP_DEFAULT_DESKTOP_SIZES 1024x768
 
@@ -13,6 +13,7 @@ RUN apt-key add /tmp/linux_signing_key.pub \
 	&& apt-get install -y \
 	google-chrome-stable \
 	chrome-remote-desktop \
+	ttf-wqy-microhei\
 	fonts-takao \
 	pulseaudio \
 	supervisor \
