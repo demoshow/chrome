@@ -14,7 +14,6 @@ RUN apt-key add /tmp/linux_signing_key.pub \
 	google-chrome-stable \
 	chrome-remote-desktop \
 	ttf-wqy-microhei\
-	fonts-takao \
 	pulseaudio \
 	supervisor \
 	x11vnc \
